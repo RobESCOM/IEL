@@ -3765,54 +3765,6 @@
         .intro p { margin: 50px 0 0; }
         h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../images/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
 	
-        .main {
-	    width:90%;
-	    max-width:1000px;
-	    margin:20px auto;
-        }
-
-        .slides {
-	        width:100%;
-        }
- 
-        .slides img {
-	        width:100%
-        }
- 
-        .slidesjs-pagination {
-	        background:#FAFAFA;
-	        list-style:none;
-	        overflow:hidden;
-        }
- 
-        .slidesjs-pagination li {
-	        float:left;
-        }
- 
-        .slidesjs-pagination li a {
-	        display:block;
-	        padding:10px 20px;
-	        color:#fff;
-	        text-decoration:none;
-        }
- 
-        .slidesjs-pagination li a:hover {
-	        background:#000;
-        }
- 
-        .slides .active {
-	        background:#000;
-        }
- 
-        .slidesjs-navigation{
-	        background:#000;
-	        color:#fff;
-	        text-decoration:none;
-	        display:inline-block;
-	        padding:13.5px 20px;
-	        float:right;
-        }
-
                 /* ==========================================================================
         Team
         ========================================================================== */
@@ -3833,4 +3785,17 @@
         .contact-details h2 { font-size: 20px; }
         .contact-details h2 span { display: block; color: #3dc9b3; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
         .contact-wrap { position: relative; }
+
+        /* ==========================================================================
+        Footer
+        ========================================================================== */
+        footer a { color: #a1a9b0; }
+        footer { background-color: #242830; padding: 40px 0 30px; }
+        footer p { color: #fff; }
+        ul.legals { list-style: none; color: #fff; line-height: 25px; }
+        ul.legals li { display: inline-block; }
+        ul.legals li::after { content: " |"; }
+        ul.legals li:last-child::after { content: ""; }
+        .legals { text-align: left; }
+        .credit { text-align: right; }
 }
