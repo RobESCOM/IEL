@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="css/EstilosSlides.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/queries.css">
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <style type="text/css">
         .auto-style1 {
             width: 25em;
             height: 1em;
         }
+
         .auto-style1-social {
             width: 2em;
             height: 2em;
@@ -54,6 +56,7 @@
             font-weight: bold;
             box-sizing: border-box;
             transition: all 500ms ease !important;
+            font-family: 'Century Gothic' !important;
         }
 
             .buttonServicios:before {
@@ -79,6 +82,7 @@
             font-weight: bold;
             box-sizing: border-box;
             transition: all 500ms ease !important;
+            font-family: 'Century Gothic' !important;
         }
 
             .buttonServicios2:before {
@@ -109,11 +113,13 @@
             letter-spacing: 1px;
             font-weight: bold;
             font-size: 20px !important;
+            font-family: Rockwell !important;
         }
 
         .divPadding {
             margin-left: 0% !important;
         }
+
         .divSlide {
             margin-left: 0% !important;
         }
@@ -133,23 +139,44 @@
             width: auto;
             border-radius: 10px;
         }
+
         .smallSubt {
             text-transform: uppercase;
             color: #353535;
             letter-spacing: 1px;
             font-weight: bold;
             font-size: 15px !important;
+            font-family: Rockwell !important;
         }
+
         .imgClientes {
             vertical-align: middle;
             height: 180px;
             width: 160px;
         }
+
         .row2 {
             height: 0% !important;
         }
+
         .contact {
             margin-top: 200px;
+        }
+
+        .menuDes {
+            color: #ef6e00;
+        }
+        .newFooter {
+            height: 100px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            background-color: rgba(103, 88, 88, 0.92);
+        }
+        .footerContainer {
+             margin-left: 0px !important; 
+             margin-right: 0px !important; 
+             width: 100% !important;
+             padding: 0%;
         }
     </style>
 </head>
@@ -163,33 +190,33 @@
                     <li>
                         <a href="Index.aspx" class="button icon fa-angle-down">Inicio</a>
                         <ul>
-                            <li><a href="#mision">¿Quiénes somos?</a></li>
-                            <li><a href="#mision">¿Qué hacemos?</a></li>
-                            <li><a href="#mision">Misión</a></li>
-                            <li><a href="#mision">Visión</a></li>
-                            <li><a href="#intro">Nuestra historia</a></li>
+                            <li class="menuDes"><a href="#mision" class="menuDes">¿Quiénes somos?</a></li>
+                            <li class="menuDes"><a href="#mision" class="menuDes">¿Qué hacemos?</a></li>
+                            <li class="menuDes"><a href="#mision" class="menuDes">Misión</a></li>
+                            <li class="menuDes"><a href="#mision" class="menuDes">Visión</a></li>
+                            <li class="menuDes"><a href="#intro" class="menuDes">Nuestra historia</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#" class="button icon fa-angle-down">Servicios</a>
                         <ul class="dropotronWidth">
-                            <li>
-                                <a>Alumbrado Público</a>
+                            <li class="menuDes">
+                                <a class="menuDes">Alumbrado Público</a>
                                 <%-- <ul>
                                         <li><a href="#">Galería</a></li>
                                     </ul> --%>
                             </li>
-                            <li>
-                                <a href="#">Alumbrado comercial</a>
+                            <li class="menuDes">
+                                <a href="#" class="menuDes">Alumbrado comercial</a>
                                 <%--<ul>
                                         <li><a href="#">Galería</a></li>
                                     </ul>--%>
                             </li>
-                            <li>
-                                <a href="#">Sistemas de Georreferenciación GPS</a>
+                            <li class="menuDes">
+                                <a href="#" class="menuDes">Sistemas de Georreferenciación GPS</a>
                             </li>
-                            <li>
-                                <a href="#">Monitoreo aéreo con drone</a>
+                            <li class="menuDes">
+                                <a href="#" class="menuDes">Monitoreo aéreo con drone</a>
                                 <%--<ul>
                                         <li><a href="#">Ver videos</a></li>
                                     </ul>--%>
@@ -199,16 +226,16 @@
                     <li>
                         <a href="#projects" class="button icon fa-angle-down">Proyectos</a>
                         <ul>
-                            <li><a href="#clientes">Clientes</a></li>
-                            <li><a href="#">Trayectoria</a></li>
-                            <li><a href="#">Galería</a></li>
+                            <li class="menuDes"><a href="#clientes" class="menuDes">Clientes</a></li>
+                            <li class="menuDes"><a href="#" class="menuDes">Trayectoria</a></li>
+                            <li class="menuDes"><a href="#galeria" class="menuDes">Galería</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#" class="button icon fa-angle-down">Contacto</a>
                         <ul>
-                            <li><a href="#team">Organigrama</a></li>
-                            <li><a href="#">Contáctanos</a></li>
+                            <li class="menuDes"><a href="#team" class="menuDes">Organigrama</a></li>
+                            <li class="menuDes"><a href="#" class="menuDes">Contáctanos</a></li>
                         </ul>
                     </li>
                     <%--<li>
@@ -236,13 +263,14 @@
         <section id="banner">
             <a href="Index.aspx">
                 <img src="images/iel/logo.jpg" class="imgLogo" /></a>
-            <h2>Instalaciones Eléctricas "Lomas"</h2>
-            <p>Nuestro compormiso es atenderte y darte el mejor de los servicios.</p>
+            <h2><font face="Rockwell">Instalaciones Eléctricas Lomas</font></h2>
+            <p><font face="Rockwell">La mejor solución para el desarrollo de proyectos en ahorro de energía.</font></p>
             <ul class="actions">
                 <li><a href="#" class="button buttonServicios">ALUMBRADO PÚBLICO</a></li>
                 <li><a href="#" class="button buttonServicios2">ALUMBRADO COMERCIAL</a></li>
                 <li><a href="#" class="button buttonServicios">SISTEMA DE GEORREFERENCIACIÓN</a></li>
-                <li><a href="#" class="button buttonServicios2">MONITOREO AÉREO</a></li>
+                <li><a href="#" class="button buttonServicios2">MONITOREO AÉREO CON DRONE</a></li>
+                <li><a href="#" class="button buttonServicios">COLOCACIÓN DE POSTES</a></li>
                 <%--<li><a href="#" class="button">Learn More</a></li>--%>
             </ul>
         </section>
@@ -255,9 +283,9 @@
                         <img class="imgIEL" src="/images/iel/hist-1.jpg" />
                     </div>
                     <div class="col-md-6 col-md-offset-2 wp1 animated fadeInLeft divPadding">
-                        <h2 class="subtitulos" id="historia">Conoce nuestra historia...</h2>
+                        <h2 class="subtitulos" id="historia">Nuestra historia...</h2>
                         <%--<p class="arrow">
-                          &nbsp;</p>--%>
+                           &nbsp;</p>--%>
                         <p class="arrow">
                             <img class="auto-style1" src="images/h1-bg.png" />
                         </p>
@@ -284,7 +312,7 @@
                     <div class="col-md-12">
                         <h4 class="arrow">&nbsp;</h4>
                         <%--<h3 class="arrow">Love what you do, and you'll do it well</h3>--%>
-                        <h2 class="subtitulos" id="misionVision">Más acerca de nosotros</h2>
+                        <h2 class="subtitulos" id="misionVision">Acerca de nosotros</h2>
                         <p class="arrow">
                             <i class="fa fa-laptop shadow">
                                 <img class="auto-style1" src="images/h1-bg.png" /></i>
@@ -352,7 +380,7 @@
             <div class="main">
                 <div class="slides">
                     <div>
-                        <img src="images/iel/gal03.png" alt="" style="border-radius:10px;">
+                        <img src="images/iel/gal03.png" alt="" style="border-radius: 10px;">
                         <section class="text-justify bg-success">
                             <div class="container">
                                 <div class="row">
@@ -369,7 +397,7 @@
                         </section>
                     </div>
                     <div>
-                        <img src="images/iel/soriana.jpeg" alt="" style="border-radius:10px;">
+                        <img src="images/iel/soriana.jpeg" alt="" style="border-radius: 10px;">
                         <section class="text-justify bg-success">
                             <div class="container">
                                 <div class="row">
@@ -387,7 +415,7 @@
                     </div>
 
                     <div>
-                        <img src="images/iel/gal07.png" alt="" style="border-radius:10px;">
+                        <img src="images/iel/gal07.png" alt="" style="border-radius: 10px;">
                         <section class="text-justify bg-success">
                             <div class="container">
                                 <div class="row">
@@ -432,7 +460,7 @@
                                     <div class="overlay-effect effects clearfix">
                                         <div class="img">
                                             <img src="images/iel/bking.png" class="imgClientes" alt="Burger King">
-                                           <%-- <div class="overlay">
+                                            <%-- <div class="overlay">
                                                 <a href="#" class="expand"><i class="fa fa-search"></i>
                                                     <br>
                                                     View More</a>
@@ -523,6 +551,147 @@
                             </li>--%>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="screenshots-intro align-center bg-success" id="galeria">
+            <div class="container">
+                <div class="col-md-12 align-center bg-success">
+                    <h2 class="subtitulos">Así es como trabajamos...</h2>
+                    <div class="row align-center bg-success">
+                        <div class="col-md-12 col-md-offset-2 wp1 animated fadeInLeft divPadding">
+                            <p class="arrow align-center bg-success">
+                                <img class="auto-style1" src="images/h1-bg.png" />
+                            </p>
+                            <p>&nbsp;</p>
+                            <p>Nuestro trabajo y dedicación resumidos en imágenes.</p>
+                            <p><a href="#screenshots" class="arrow-btn">Ver galería<i class="fa fa-long-arrow-right"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="screenshots" id="screenshots">
+            <div class="container-fluid">
+                <div class="row">
+                    <ul class="grid">
+                        <li>
+                            <figure>
+                                <img src="images/01-screenshot.jpg" alt="Screenshot 01">
+                                <figcaption>
+                                    <div class="caption-content">
+                                        <a href="images/large/01.jpg" class="single_image">
+                                            <i class="fa fa-search"></i>
+                                            <br>
+                                            <p>Ver</p>
+                                        </a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/02-screenshot.jpg" alt="Screenshot 01">
+                                <figcaption>
+                                    <div class="caption-content">
+                                        <a href="images/large/02.jpg" class="single_image">
+                                            <i class="fa fa-search"></i>
+                                            <br>
+                                            <p>Ver</p>
+                                        </a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/03-screenshot.jpg" alt="Screenshot 01">
+                                <figcaption>
+                                    <div class="caption-content">
+                                        <a href="images/large/03.jpg" class="single_image">
+                                            <i class="fa fa-search"></i>
+                                            <br>
+                                            <p>Ver</p>
+                                        </a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/04-screenshot.jpg" alt="Screenshot 01">
+                                <figcaption>
+                                    <div class="caption-content">
+                                        <a href="images/large/04.jpg" class="single_image">
+                                            <i class="fa fa-search"></i>
+                                            <br>
+                                            <p>Ver</p>
+                                        </a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <ul class="grid">
+                        <li>
+                            <figure>
+                                <img src="images/05-screenshot.jpg" alt="Screenshot 01">
+                                <figcaption>
+                                    <div class="caption-content">
+                                        <a href="images/large/05.jpg" class="single_image">
+                                            <i class="fa fa-search"></i>
+                                            <br>
+                                            <p>Ver</p>
+                                        </a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/06-screenshot.jpg" alt="Screenshot 01">
+                                <figcaption>
+                                    <div class="caption-content">
+                                        <a href="images/large/06.jpg" class="single_image">
+                                            <i class="fa fa-search"></i>
+                                            <br>
+                                            <p>Ver</p>
+                                        </a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/07-screenshot.jpg" alt="Screenshot 01">
+                                <figcaption>
+                                    <div class="caption-content">
+                                        <a href="images/large/07.jpg" class="single_image">
+                                            <i class="fa fa-search"></i>
+                                            <br>
+                                            <p>Ver</p>
+                                        </a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/08-screenshot.jpg" alt="Screenshot 01">
+                                <figcaption>
+                                    <div class="caption-content">
+                                        <a href="images/large/08.jpg" class="single_image">
+                                            <i class="fa fa-search"></i>
+                                            <br>
+                                            <p>Ver</p>
+                                        </a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -621,6 +790,7 @@
                     <div class="col-md-4">
                         <div class="light-box box-hover">
                             <h2 class="smallSubt"><i class="fa fa-map-marker"></i><span>Dirección</span></h2>
+                            <p>**Plug-in de Google Maps con la ubicación**</p>
                             <p>Fresas N° 4 Unidad Morelos 3ra. Sección, Tultitlán, Estado de México. C.P. 54935</p>
                         </div>
                     </div>
@@ -644,16 +814,33 @@
                         <img alt="" class="auto-style1-social" src="images/tw.png" />
                     </div>
                 </div>
-                <div class="row" style="height: 0% !important;">
+                <%--<div class="row" style="height: 0% !important;">
                     <div class="col-md-6">
                         <p>&copy; Todos los derechos reservados <span>Roberto Mendoza y Michell Lora</span></p>
                     </div>
-                </div>
+                </div>--%>
             </div>
         </section>
 
     </div>
-
+    <footer>
+        <div class="container footerContainer">
+            <div class="row newFooter">
+                <div class="col-md-2">
+                    <ul class="legals">
+                        <li><a href="#">Aviso de privacidad</a></li>
+                        <li><a href="#">Adminisrador</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5" style="text-align: center !important;">
+                    <p>**Mapa de sitio**</p>
+                </div>
+                <div class="col-md-5 credit">
+                    <p>&copy; Todos los derechos reservados <span>Roberto Mendoza y Michell Lora</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.dropotron.min.js"></script>
