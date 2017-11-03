@@ -282,6 +282,15 @@
             </ul>
         </section>
 
+        <section class="video" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<iframe width="760" height="515" src="https://www.youtube.com/embed/9No-FiEInLA?theme=light"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
 
         <section class="align-center" id="intro">
             <div class="container">
@@ -329,7 +338,7 @@
                         <p>&nbsp;</p>
                         <p>
                             Mediante la planeación, control y logística llevamos a cabo la instalación y sustitución 
-                            luminarias de tecnología LED con el fin de mejorar la calidad y el ahorro de energía eléctrica &nbsp<a href="#">Leer más...
+                            luminarias de tecnología LED con el fin de mejorar la calidad y el ahorro de energía eléctrica. <a href="#">Leer más...</a>
                         </p>
                     </div>
                 </div>
@@ -814,7 +823,7 @@
                     <div class="col-md-4">
                         <div class="light-box box-hover">
                             <h2 class="smallSubt"><i class="fa fa-map-marker"></i><span>Dirección</span></h2>
-                            <p>**Plug-in de Google Maps con la ubicación**</p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.639945239898!2d-99.09750158453066!3d19.685360686741216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f364845265bd%3A0xdd7a075da6b4b0f!2sFresas+4%2C+Morelos+3ra+Secc%2C+54930+San+Pablo+de+las+Salinas%2C+M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1509733994543" width="300" height="180" style="border:0"></iframe>
                             <p>Fresas N° 4 Unidad Morelos 3ra. Sección, Tultitlán, Estado de México. C.P. 54935</p>
                         </div>
                     </div>
