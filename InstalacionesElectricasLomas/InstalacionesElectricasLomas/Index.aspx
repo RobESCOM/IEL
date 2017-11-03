@@ -44,6 +44,11 @@
             width: 236px;
         }
 
+         .auto-style6 {
+            width: 57px;
+            height: 57px;
+        }
+
         .dropotronWidth {
             width: 18em !important;
         }
@@ -135,8 +140,8 @@
 
         .smallImg {
             vertical-align: middle;
-            height: 128px;
-            width: auto;
+            height: 318px;
+            width: 341px;
             border-radius: 10px;
         }
 
@@ -186,7 +191,7 @@
         <!-- Header -->
         <header id="header" class="alt">
             <nav id="nav">
-                <ul>
+                 <ul>
                     <li>
                         <a href="Index.aspx" class="button icon fa-angle-down">Inicio</a>
                         <ul>
@@ -257,6 +262,8 @@
 						</li>--%>
                     <%--<li><a href="#" class="button">Administrador</a></li>--%>
                 </ul>
+
+               
             </nav>
         </header>
         <!-- Banner -->
@@ -276,14 +283,21 @@
         </section>
 
 
-        <section class="align-center bg-success" id="intro">
+        <section class="align-center" id="intro">
             <div class="container">
+                <h2 class="subtitulos" id="historia">&nbsp;</h2>
+                <h2 class="subtitulos">Acerca de Nosotros</h2>
+                <%--<p class="arrow">
+                    &nbsp;</p>--%>
+                <p class="arrow">
+                    <img class="auto-style6" src="images/h1-bg2.png" />
+                </p>
+                <h2 class="subtitulos">&nbsp;</h2>
                 <div class="row">
                     <div class="col-md-6 col-md-offset-2 wp1 animated fadeInLeft divPadding">
-                        <img class="imgIEL" src="/images/iel/hist-1.jpg" />
-                    </div>
-                    <div class="col-md-6 col-md-offset-2 wp1 animated fadeInLeft divPadding">
-                        <h2 class="subtitulos" id="historia">Nuestra historia...</h2>
+                        <h2 class="subtitulos">&nbsp;</h2>
+                        <h2 class="subtitulos">&nbsp;</h2>
+                        <h2 class="subtitulos">¿Quiénes somos?</h2>
                         <%--<p class="arrow">
                            &nbsp;</p>--%>
                         <p class="arrow">
@@ -291,93 +305,89 @@
                         </p>
                         <p>&nbsp;</p>
                         <p>
-                            Comenzó hace 15 años, un joven emprendedor, que junto con sus hermanos iniciaron haciendo 
-                          instalaciones eléctricas, posteriormente por su excelente trabajo y dedicación a este oficio, empezaron a 
-                          adquirir mas experiencia tomando trabajos como contratista, formándose en instalaciones, mantenimientos, cambio 
-                          de luminarias, proyectos, asesorías, distribución, entre otros, en toda la República Mexicana.
+                            Somos una empresa dedicada a la ejecución de proyectos integrales en iluminación led.
                         </p>
-                        <br />
+                    </div>
+                    <div class="col-md-6 col-md-offset-2 wp1 animated fadeInLeft divPadding">
+                        <img alt="" class="auto-style2 smallImg" src="images/iel/logo-original.jpeg" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-2 wp1 animated fadeInLeft divPadding">
+                        <img alt="" class="auto-style3 smallImg" src="images/iel/bodega.jpeg" />
+                        
+                    </div>
+                    <div class="col-md-6 col-md-offset-2 wp1 animated fadeInLeft divPadding">
+                        <h2 class="subtitulos">&nbsp;</h2>
+                        <h2 class="subtitulos">&nbsp;</h2>
+                        <h2 class="subtitulos">¿Qué hacemos?</h2>
+                        <%--<p class="arrow">
+                           &nbsp;</p>--%>
+                        <p class="arrow">
+                             <img class="auto-style1" src="images/h1-bg.png" />
+                        </p>
+                        <p>&nbsp;</p>
                         <p>
-                            Su Nombre, <a href="#team">Gonzalo Lomas Flores</a>, que junto con Electro Tec, atendieron a infinidad de clientes 
-                          de renombre y quienes respaldan su trabajo.
+                            Mediante la planeación, control y logística llevamos a cabo la instalación y sustitución 
+                            luminarias de tecnología LED con el fin de mejorar la calidad y el ahorro de energía eléctrica &nbsp<a href="#">Leer más...
                         </p>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-2 wp1 animated fadeInLeft divPadding">
+                        <h2 class="subtitulos">&nbsp;</h2>
+                        <h2 class="subtitulos">&nbsp;</h2>
+                        <h2 class="subtitulos">Misión</h2>
+                        <%--<p class="arrow">
+                           &nbsp;</p>--%>
+                        <p class="arrow">
+                            <img class="auto-style1" src="images/h1-bg.png" />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                            Ofrecer a todos nuestros clientes la mejor logística integral en iluminación que se haga 
+                            notar en la organización, velocidad y calidad de nuestros proyectos.
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-md-offset-2 wp1 animated fadeInLeft divPadding">
+                        <img alt="" class="auto-style4 smallImg" src="images/iel/gal05.png" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-2 wp1 animated fadeInLeft divPadding">
+                        <img alt="" class="auto-style4 smallImg" src="images/iel/gal06.png" />
+                    </div>
+                    <div class="col-md-6 col-md-offset-2 wp1 animated fadeInLeft divPadding">
+                        <h2 class="subtitulos">&nbsp;</h2>
+                        <h2 class="subtitulos">&nbsp;</h2>
+                        <h2 class="subtitulos">Visión</h2>
+                        <%--<p class="arrow">
+                           &nbsp;</p>--%>
+                        <p class="arrow">
+                            <img class="auto-style1" src="images/h1-bg.png" />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                            Ser la mejor solución para el desarrollo de proyectos en ahorro de energía.
+                        </p>
+                        
+                    </div>
+                </div>
             </div>
+
+
         </section>
 
-        <section class="features text-center section-padding" id="mision">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h4 class="arrow">&nbsp;</h4>
-                        <%--<h3 class="arrow">Love what you do, and you'll do it well</h3>--%>
-                        <h2 class="subtitulos" id="misionVision">Acerca de nosotros</h2>
-                        <p class="arrow">
-                            <i class="fa fa-laptop shadow">
-                                <img class="auto-style1" src="images/h1-bg.png" /></i>
-                        </p>
-                        <p class="arrow">&nbsp;</p>
-                        <div class="features-wrapper">
-                            <div class="col-md-3 wp2 animated fadeInUp">
-                                <h2>
-                                    <img alt="" class="auto-style2 smallImg" src="images/iel/logo-original.jpeg" /></h2>
-                                <h2 class="smallSubt">¿Quiénes somos?</h2>
-                                <p>&nbsp;</p>
-                                <p>Somos una empresa dedicada a la ejecución de proyectos integrales en iluminación led.</p>
-                            </div>
-                            <div class="col-md-3 wp2 delay-05s animated fadeInUp">
-                                <div class="icon">
-                                    <i class="fa fa-code shadow"></i>
-                                </div>
-                                <h2>
-                                    <img alt="" class="auto-style3 smallImg" src="images/iel/bodega.jpeg" /></h2>
-                                <h2 class="smallSubt">¿Qué hacemos?</h2>
-                                <p>&nbsp;</p>
-                                <p>
-                                    Mediante la planeación, control y logística llevamos a cabo la instalación y sustitución 
-                            luminarias de tecnología LED con el fin de mejorar la calidad y el ahorro de energía eléctrica &nbsp<a href="#">Leer más...</a>
-                                </p>
-                            </div>
-                            <div class="col-md-3 wp2 delay-1s animated fadeInUp">
-                                <div class="icon">
-                                    <i class="fa fa-heart shadow"></i>
-                                </div>
-                                <h2>
-                                    <img alt="" class="auto-style4 smallImg" src="images/iel/gal05.png" /></h2>
-                                <h2 class="smallSubt">Misión</h2>
-                                <p>&nbsp;</p>
-                                <p>
-                                    Ofrecer a todos nuestros clientes la mejor logística integral en iluminación que se haga 
-                            notar en la organización, velocidad y calidad de nuestros proyectos.
-                                </p>
-                                <p>
-                                    &nbsp;
-                                </p>
-                                <p>&nbsp;</p>
-                            </div>
-                            <div class="col-md-3 wp2 delay-1s animated fadeInUp">
-                                <div class="icon">
-                                    <i class="fa fa-heart shadow"></i>
-                                </div>
-                                <h2>
-                                    <img alt="" class="auto-style4 smallImg" src="images/iel/gal06.png" /></h2>
-                                <h2 class="smallSubt">Visión</h2>
-                                <p>&nbsp;</p>
-                                <p>Ser la mejor solución para el desarrollo de proyectos en ahorro de energía.</p>
-                                <p>
-                                    &nbsp;
-                                </p>
-                                <p>&nbsp;</p>
-                            </div>
-                            <%--<div class="clearfix"></div>--%>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section class="bg-success" id="projects">
+
             <div class="main">
+                <h2 class="subtitulos">&nbsp;</h2>
+                <h2 class="subtitulos text-center">Proyectos</h2>
+                <%--<p class="arrow">
+                    &nbsp;</p>--%>
+                <p class="text-center">
+                    <img class="auto-style6 " src="images/h1-bg2.png" />
+                </p>
                 <div class="slides">
                     <div>
                         <img src="images/iel/gal03.png" alt="" style="border-radius: 10px;">
@@ -437,10 +447,15 @@
         </section>
         <section class="portfolio text-center section-padding" id="clientes">
             <div class="container">
+                <h2 class="subtitulos">&nbsp;</h2>
+                <h2 class="subtitulos text-center">Clientes</h2>
+                <%--<p class="arrow">
+                    &nbsp;</p>--%>
+                <p class="text-center">
+                    <img class="auto-style6 " src="images/h1-bg2.png" />
+                </p>
                 <div class="row">
                     <div id="portfolioSlider" style="width: 100%;">
-                        <ul>
-                            <li>
                                 <div class="col-md-3 wp2 animated fadeInUp">
                                     <div class="overlay-effect effects clearfix">
                                         <div class="img">
@@ -501,8 +516,6 @@
                                     <h2 class="smallSubt">IMSS</h2>
                                     <%--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>--%>
                                 </div>
-                            </li>
-                            <li>
                                 <%--<div class="col-md-4 wp4">
                                     <div class="overlay-effect effects clearfix">
                                         <div class="img">
@@ -549,7 +562,6 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
                                 </div>
                             </li>--%>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -557,12 +569,15 @@
         <section class="screenshots-intro align-center bg-success" id="galeria">
             <div class="container">
                 <div class="col-md-12 align-center bg-success">
-                    <h2 class="subtitulos">Así es como trabajamos...</h2>
+                <h2 class="subtitulos">&nbsp;</h2>
+                <h2 class="subtitulos">Así es como trabajamos...</h2>
+                <%--<p class="arrow">
+                    &nbsp;</p>--%>
+                <p class="text-center">
+                    <img class="auto-style6 " src="images/h1-bg2.png" />
+                </p>
                     <div class="row align-center bg-success">
                         <div class="col-md-12 col-md-offset-2 wp1 animated fadeInLeft divPadding">
-                            <p class="arrow align-center bg-success">
-                                <img class="auto-style1" src="images/h1-bg.png" />
-                            </p>
                             <p>&nbsp;</p>
                             <p>Nuestro trabajo y dedicación resumidos en imágenes.</p>
                             <p><a href="#screenshots" class="arrow-btn">Ver galería<i class="fa fa-long-arrow-right"></i></a></p>
@@ -699,9 +714,12 @@
             <div class="container">
                 <div class="row row2">
                     <div class="col-md-12">
-                        <h1 class="arrow subtitulos">Somos un gran equipo</h1>
-                        <p class="arrow">
-                            <img alt="" class="auto-style1" src="images/h1-bg.png" />
+                        <h2 class="subtitulos">&nbsp;</h2>
+                        <h2 class="subtitulos text-center">Somos un Gran Equipo</h2>
+                        <%--<p class="arrow">
+                            &nbsp;</p>--%>
+                        <p class="text-center">
+                            <img class="auto-style6 " src="images/h1-bg2.png" />
                         </p>
                     </div>
                 </div>
@@ -783,7 +801,13 @@
             <div class="container">
                 <div class="row contact" style="height: 150px !important;">
                     <div class="col-md-12">
-                        <h1 class="arrow subtitulos">Nuestro contacto</h1>
+                        <h2 class="subtitulos">&nbsp;</h2>
+                        <h2 class="subtitulos text-center">Nuestro Contacto</h2>
+                        <%--<p class="arrow">
+                            &nbsp;</p>--%>
+                        <p class="text-center">
+                            <img class="auto-style6 " src="images/h1-bg2.png" />
+                        </p>
                     </div>
                 </div>
                 <div class="row contact-details" style="height: 150px !important;">
@@ -823,24 +847,57 @@
         </section>
 
     </div>
-    <footer>
-        <div class="container footerContainer">
-            <div class="row newFooter">
-                <div class="col-md-2">
-                    <ul class="legals">
-                        <li><a href="#">Aviso de privacidad</a></li>
+
+    <div id="footer">
+				<div class="container 75%">
+
+					<header class="major last">
+						<h2>Preguntas o Comentarios</h2>
+                        <p>La calidad de tu servicio, depende de la calidad de tu personal</p>
+					</header>
+					
+
+					<form method="post" action="#">
+						<div class="row">
+							<div class="6u 12u(mobilep)">
+								<input type="text" name="name" placeholder="Nombre" />
+							</div>
+							<div class="6u 12u(mobilep)">
+								<input type="email" name="email" placeholder="Correo" />
+							</div>
+                            <div class="12u">
+                               
+								<br /><textarea name="Mensaje" placeholder="Mensaje" rows="6"></textarea>
+							</div>
+                            <div class="12u">
+								<ul class="actions">
+									<br /><li><input type="submit" value="Enviar Mensaje" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+
+					 <div class="row" style="height: 150px !important;">
+                        <div class="col-md-12">
+                            <img alt="" class="auto-style1-social" src="images/fb.png" />
+                            <img alt="" class="auto-style1-social" src="images/wa.png" />
+                            <img alt="" class="auto-style1-social" src="images/tw.png" />
+                        </div>
+                </div>
+
+					<ul class="copyright">
+						<li>&copy; Todos los derechos reservados </li>
+                        <li>Design: Roberto Mendoza y Michell Lora</li>
+
+                        <br /><li><a href="#">Aviso de privacidad</a></li>
+                        <li><a href="#">Mapa del Sitio</a></li>
                         <li><a href="#">Adminisrador</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-5" style="text-align: center !important;">
-                    <p>**Mapa de sitio**</p>
-                </div>
-                <div class="col-md-5 credit">
-                    <p>&copy; Todos los derechos reservados <span>Roberto Mendoza y Michell Lora</span></p>
-                </div>
-            </div>
-        </div>
-    </footer>
+
+					</ul>
+
+				</div>
+			</div>
+
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.dropotron.min.js"></script>
@@ -857,14 +914,30 @@
     <script src="jsHal/jquery.flexslider.js"></script>
     <script src="jsHal/modernizr.js"></script>
 
-    <script>
+   <script>
 
-        $(function () {
-            $(".slides").slidesjs({
+            	$(function () {
+            	    $(".slides").slidesjs({
+            	        play: {
+            	            active: true,
+            	            // [boolean] Generate the play and stop buttons.
+            	            // You cannot use your own buttons. Sorry.
+            	            effect: "slide",
+            	            // [string] Can be either "slide" or "fade".
+            	            interval: 3000,
+            	            // [number] Time spent on each slide in milliseconds.
+            	            auto: true,
+            	            // [boolean] Start playing the slideshow on load.
+            	            swap: true,
+            	            // [boolean] show/hide stop and play buttons
+            	            pauseOnHover: false,
+            	            // [boolean] pause a playing slideshow on hover
+            	            restartDelay: 2500
+            	            // [number] restart delay on inactive slideshow
+            	        }
+            	    });
+            	});
 
-            });
-        });
-
-    </script>
+            </script>
 </body>
 </html>
