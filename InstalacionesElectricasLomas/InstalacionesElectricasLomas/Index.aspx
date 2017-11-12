@@ -196,12 +196,13 @@
         }
 
         .texto {
-            font-size: 22px;
+            font-size: 18px;
         }
 
         .fondo {
             background-color: #f6f7f9;
         }
+
         .menuBtn {
             font-size: 16px;
         }
@@ -244,7 +245,7 @@
                             </li>
                             <li class="menuDes">
                                 <a href="#" class="menuDes">Monitoreo aéreo con drone</a>
-                               <%-- <ul>
+                                <%-- <ul>
                                     <li><a href="#">Ver videos</a></li>
                                 </ul>--%>
                             </li>
@@ -323,10 +324,35 @@
                 </div>
             </div>
         </section>
-
+        <section class="bg-success align-center" id="historia">
+            <div class="container">
+                <h2 class="subtitulos">Nuestra historia</h2>
+                <p class="arrow">
+                    <img class="auto-style6" src="images/h1-bg2.png" />
+                </p>
+                <div class="row">
+                    <div class="col-md-5">
+                        <p class="texto">
+                            Comenzó hace 15 años, un joven emprendedor, que junto con sus hermanos iniciaron haciendo instalaciones 
+                        eléctricas, posteriormente, por su excelente trabajo y dedicación a este oficio empezaron a adquirir mas experiencia 
+                        tomando trabajos como contratista, formándose en instalaciones, mantenimientos, cambio de luminarias, proyectos, asesorías,
+                        distribución, entre otros, en toda la República Mexicana.<br />
+                            <br />
+                            Su nombre, <a href="#director">Gonzalo Lomas Flores</a>, que junto con Electro Tec, 
+                        atendieron a infinidad de clientes de renombre y quienes respaldan su trabajo.
+                        </p>
+                    </div>
+                    <div class="col-md-7" style="padding-bottom: 2%;">
+                        <p class="arrow">
+                            <img style="border-radius: 10px; width: 80%; height: 325px;" src="images/iel/hist-1.jpg" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="align-center fondo" id="intro">
             <div class="container">
-                <h2 class="subtitulos" id="historia">&nbsp;</h2>
+                <%--<h2 class="subtitulos" id="historia">&nbsp;</h2>--%>
                 <h2 class="subtitulos">Acerca de Nosotros</h2>
                 <%--<p class="arrow">
                     &nbsp;</p>--%>
@@ -767,7 +793,7 @@
                 <div class="row">
                     <div class="team-wrapper" style="width: 100%;">
                         <div id="teamSlider">
-                            <div class="col-md-4 wp5 animated fadeInUp">
+                            <div class="col-md-4 wp5 animated fadeInUp" id="director">
                                 <img src="images/team-01.png" class="auto-style5" alt="Team Member">
                                 <h2 class="smallSubt">Gonzalo Lomas Flores</h2>
                                 <p>Breve biografía...</p>
